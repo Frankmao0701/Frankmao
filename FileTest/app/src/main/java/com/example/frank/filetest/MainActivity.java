@@ -24,7 +24,8 @@ public class MainActivity extends Activity {
                 startActivity(new Intent(MainActivity.this, SecondActivity.class));
             }
         });
-
+	
+	Log.d(TAG,"test branch");
         Log.d(TAG, "onCreated调用了");
         Log.d(TAG,"onCreated调用了");
         Log.d(TAG,"onCreated调用了");
