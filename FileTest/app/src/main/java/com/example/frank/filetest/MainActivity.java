@@ -27,6 +27,9 @@ public class MainActivity extends Activity {
 
         Log.d(TAG, "onCreated调用了");
         Log.d(TAG,"onCreated调用了");
+        Log.d(TAG,"onCreated调用了");
+        Log.d(TAG,"onCreated调用了");
+
 
     }
 
