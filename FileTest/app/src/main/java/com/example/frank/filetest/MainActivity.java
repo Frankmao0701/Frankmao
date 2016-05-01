@@ -25,6 +25,7 @@ public class MainActivity extends Activity {
             }
         });
 
+        Log.d(TAG, "onCreated调用了");
         Log.d(TAG,"onCreated调用了");
 
     }
@@ -32,6 +33,7 @@ public class MainActivity extends Activity {
     @Override
     protected void onStart() {
         super.onStart();
+        Log.d(TAG, "onStart调用了");
         Log.d(TAG, "onStart调用了");
     }
 
